@@ -1,0 +1,28 @@
+print('안녕 엘리스 토끼!')
+
+
+
+x = 6
+y = 3
+
+my_sum = x + y
+print('my_sum :', my_sum)
+
+
+
+count = 10
+print(count)
+for i in range(9):
+  count -= 1
+  print(count)
+  
+or
+
+count = 10
+for i in range(10):
+  print(count)
+  count -= 1
+  
+  
+  
+  
