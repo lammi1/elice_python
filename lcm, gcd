@@ -1,0 +1,21 @@
+def gcd(a,b):
+    while b != 0:
+        temp = a % b
+        a = b
+        b = temp
+    return abs(a)
+
+def lcm(a,b):
+    gcd_value = gcd(a,b)
+    return a * b / gcd_value
+
+# a와 b가 입력됩니다.
+a, b = [int(i) for i in input().split()]
+answer = int(lcm(a,b))
+print (answer)
+
+
+abs가 뭐지
+
+그리고 계속해도 틀렸다 하길래 봤더니 lcm 에서 반환값이 실수형이라고 하더라
+정답에서 원하는 건 정수형이기 때문에 int()붙여줘야 한다고함
