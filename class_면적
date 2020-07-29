@@ -1,0 +1,44 @@
+class Rectangle:
+    '''1. Rectangle 클래스를 완성해봅시다.'''
+    def __init__(self,w,h):
+        self.width = w
+        self.height = h
+    def area(self):
+        return self.width * self.height
+
+class Square(Rectangle):
+    """2. Square 클래스를 정의하고, 완성해봅시다."""
+    def __init__(self, side):
+        self.width = side
+        self.height = side
+
+
+
+elice = Rectangle(10, 20)
+print(elice.area())
+
+bob = Square(10)
+print(bob.area())
+
+class Square(Rectangle) 이게
+Square 클래스는 Rectangle 클래스를 상속받았기 때문에 area() 메소드를 별도로 구현하지 않으셔도 됩니다!
+그렇다고 함. 괄호안에 들어가면 상속받는다는 소리.
+area가 메소드를 구현해야 하고
+__init__에 변수를 저장하는 것.
+
+
+엘리스와 딱지접기 문제는 Rectangle 클래스와 Square 클래스의 생성자와 메소드를 구현해야 하는 실습입니다.
+
+우선 Rectangle 클래스부터 구현해보도록 하겠습니다!
+
+class Rectangle:
+    def __init__(self, w, h):
+        self.width = w
+        self.height = h
+생성자로 w와 h 두 개의 인수가 전달되면, Rectangle의 멤버변수 width와 height에 저장됩니다.
+
+def area(self):
+    return self.width*self.height
+Rectangle의 area() 메소드입니다.
+
+Rectangle의 멤버변수 width와 height를 곱한 값을 반환합니다.
