@@ -9,3 +9,4 @@ print(isPrince(['Alice', 'Bob', 'Frog']))
 
 
 for elem 이 뭐지..?
+element 라고 
