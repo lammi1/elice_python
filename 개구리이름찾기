@@ -1,0 +1,11 @@
+def isPrince(frogList):
+    # 여기에 코드를 작성해 주세요!
+    for elem in frogList:
+        if elem[0] == "F":
+            return elem
+    
+
+print(isPrince(['Alice', 'Bob', 'Frog']))
+
+
+for elem 이 뭐지..?
