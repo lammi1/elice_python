@@ -1,0 +1,6 @@
+arr = []
+for i in range(3):
+    n = int(input())
+    arr.append(n)
+arr.sort()
+print(arr[1])
