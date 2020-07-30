@@ -1,0 +1,12 @@
+
+result = []
+
+n = int(input())
+
+for i in range(1,n + 1):
+    if n % i == 0:
+        result.append(i)
+        
+print(result)
+
+for loop에서 왜 1부터 n + 1까지 하는 거지??
