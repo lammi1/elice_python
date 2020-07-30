@@ -1,0 +1,23 @@
+first = int(input())
+second = int(input())
+third = int(input())
+
+if first > second:
+    if second > third:
+        print(second)
+    else if first > third:
+        print(third)
+    else: 
+        print(first)
+else if first > third:
+    print(first)
+else if second > third:
+    print(third)
+else:
+    print(second)
+    
+
+처음에 이렇게 풀었는데 오답이 나왔다.
+array를 input값으로 바꾸지 않아서 그런 것 같다고 했는데
+모르겠고 여기서는 어떻게 풀라고 하냐면
+sort 함수를 사용하라고 그런다.
