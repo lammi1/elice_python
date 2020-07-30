@@ -1,0 +1,17 @@
+n = int(input())
+isPrime = True
+if n == 1:
+    isPrime = False
+    
+for i in range(2,n):
+    if n % i == 0:
+        isPrime = False
+        
+if isPrime:
+    print("소수입니다.")
+else:
+    print("소수가 아닙니다.")
+    
+    
+
+for loop 에서 여기서는 2 부터 n -1까지 구하고 싶을 때는 (2,n)이라고 작성한다.
