@@ -1,0 +1,18 @@
+values = [int(v) for v in input().split()]
+
+mean = sum(values) / len(values)
+print(mean)
+
+result = []
+
+for v in values:
+    if v > mean:
+        result.append(v)
+        
+for r in result:
+    print(r)
+    
+ 
+여기서 처음 보는 것은 sum(values)이다.
+굳이 for loop으로 돌리면서 더하지 않아도 함수를 이용하면 되는 구나
+그리고 여기서는 평균이상을 찾을 때, 배열을 사용했다.
