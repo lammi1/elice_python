@@ -1,0 +1,13 @@
+values = [int(v) for v in input().split()]
+array [10]
+
+for v in values:
+    array[v] += 1
+
+for i in range(10):
+    if array[i] % 2 != 0:
+        print(i)
+        
+        
+배열 지정하는 부분이 잘못 된 걸까?
+다른 부분은 하라는 데로 했는데
