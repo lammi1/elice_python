@@ -1,0 +1,8 @@
+이건 내가 풀어본 함수다.
+내가 풀어본 함수들은 항상 틀리던데 파이썬을 공부한 뒤 다시 고쳐보도록 하자
+
+s = input()
+
+for i in range(1, len(s) + 1):
+    for l in range(i):
+        print(s[l])
