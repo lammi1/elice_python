@@ -1,0 +1,8 @@
+values = [int(v) for v in input().split()]
+count = [0] * 10
+
+for v in values:
+    count[v] += 1
+for i in range(len(count)):
+    if count[i] == 1:
+        print(i)
