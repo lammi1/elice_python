@@ -1,0 +1,18 @@
+values = [int(v) for v in input().split()]
+
+sum = 0
+for v in values:
+    sum += v
+mean = sum / len(values)
+print(mean)
+
+for v in values:
+    if v > mean:
+        print(v)
+        
+  
+
+이 코드가 계속 틀려서 왜 그러지 했는데 
+sum = 0을 안해줘서 그런거였다!!
+나는 전에 파이썬은 굳이 변수초기화를 안 해줘도 된다고 들어서 안 했는데!!!
+아싸! 드디어 풀었다!
